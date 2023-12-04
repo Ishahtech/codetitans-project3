@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+}
+
+.footer {
+    padding: 64px 90px 117px;
+    text-align: left;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.footer-main {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 5px 25px;
+}
+
+.stickers-imgs {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.store-images {
+    height: 45px;
+    border: solid gray 1px;
+    border-radius: 10px;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: repeat(4 4fr);
+    gap: 30px;
+}
+
+h1 {
+    color: #a2a2ad;
+    font-size: 15px;
+    font-weight: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500px;
+    font-size: 15px;
+}
+
+.icons {
+
+    display: flex;
+    gap: 10px;
+}
+
+.icons img {
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 20px;
+}
+
+.deezer {
+    display: flex;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+}
+
+.all-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h3 {
+    color: grey;
+
+}
+
+ul {
+    list-style-type: none;
+}
