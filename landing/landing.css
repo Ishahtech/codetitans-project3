@@ -1,7 +1,9 @@
-.main {
+body {
     display: flex;
-    place-items: center;
     background-color: #0f0d13;
+    width: auto;
+    position: relative;
+    z-index: -1;
 }
 /* h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -9,27 +11,66 @@
     text-align: center;
 } */
 
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+}
+
 .hero-section {
     display: flex;
-    place-items: center;
-    background-color: #0f0d13;
-}
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+ }
+
+    
  .tag-line {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
+    font-size: x-large;
+    color: white;
+    text-align: center;
 
  }
 
  .categories {
-    display: inline-block;
+    display: flex;
+    position: relative;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
  }
 
  .categories img {
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    align-items: center;
+    justify-content: center;
+    
+    
+ }
+
+ .plans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+ }
+
+ .selections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
  }
