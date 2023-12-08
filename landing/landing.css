@@ -162,15 +162,21 @@ body {
 }
 
 /* Brenda's section: Plans CSS */
+h2 {
+   color: white;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 .cards {
 
    display: flex;
+   position: relative;
+   /* flex-wrap: wrap; */
    flex-direction:row;
    margin-top: 20px;
-   background-color:black;
    color:black;
    font-family:Verdana, Geneva, Tahoma, sans-serif;
    font-size: 14px;
+   width: auto;
 }
 
 .card {
@@ -200,11 +206,11 @@ body {
 .btn.premium {
    display: flex;
    background-color: #a238ff;
-   width: 120px;
-   height: 43px;
-   border-radius:10px;
+   width: 132px;
+   height: 44px;
    font-family:Verdana, Geneva, Tahoma, sans-serif;
-   margin-right: auto;
+   /* margin-right: auto; */
+   text-align: center;
    font-size: 20px;
    font-weight: bold;
    color: #FFFFFF;
@@ -216,13 +222,14 @@ body {
 .btn.family {
    display: flex;
    background-color: #FF673D;
-   width: 98px;
-   height: 40px;
+   width: 132px;
+   height: 44px;
    border-radius:20px;
    border:2px solid #FF673D;
    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
    font-size:20px;
-   margin-right:auto;
+   /* margin-right:auto; */
    font-weight: bold;
    color: #FFFFFF;
    align-items:center;
@@ -232,12 +239,13 @@ body {
 .btn.fam-and-pre{
    display: flex;
    background-color: #a238ff;
-   width: 124px;
-   height: 43px;
+   width: 132px;
+   height: 44px;
    border-radius:10px;
-   margin-right: auto;
+   /* margin-right: auto; */
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-size: 16px;
+   text-align: center;
+   font-size: 20px;
    font-weight: bold;
    color: #FFFFFF;
    padding: 5px;
@@ -275,7 +283,7 @@ body {
    padding: 16px 32px;
    background: #121216;
    margin: 0 0 16px;
-   color: #e0d9d9;
+   color: #FFFFFF;
    font-family:Verdana, Geneva, Tahoma, sans-serif;
    font-size: 14px;
    width: 350px;
