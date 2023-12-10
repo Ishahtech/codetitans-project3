@@ -1,4 +1,4 @@
-body {
+footer {
     background-color: black;
 }
 
@@ -30,26 +30,26 @@ body {
     border-radius: 10px;
 }
 
-.links {
+.links, a {
     display: grid;
     grid-template-columns: repeat(4 4fr);
     gap: 30px;
-}
-
-h1 {
-    color: #a2a2ad;
-    font-size: 15px;
-    font-weight: 700px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-a {
+    list-style-type: none;
     color: white;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500px;
     font-size: 15px;
 }
+
+.big-text {
+    color: #a2a2ad;
+    font-size: 15px;
+    font-weight: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
 
 .icons {
 
@@ -76,13 +76,7 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-h3 {
     color: grey;
-
-}
-
-ul {
-    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
 }
