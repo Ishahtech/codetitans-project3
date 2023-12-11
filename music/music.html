@@ -3,34 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>music</title>
+    <title>8ème Merveille - Fally Ipupa - Deezer</title>
     <link rel="stylesheet" href="music.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
-
+    <link rel="icon", type="image", sizes="32x32", href="./../assets/logo.png">
 </head>
 <body>
-    <!-- aishah works here -->
-    <nav>
-        <div class="nav-ctr">
-            <div>
-                <div class="logo">
-                    <img src="#" alt="deezer-logo">
+    <header>
+            <nav class="nav">
+                <div class="nav-ctr">
+                    <div class="logo">
+                        <div class="logo">
+                            <img src="./../assets/logo.png", alt="Deezer's logo">
+                        </div>
+                        <div class="logo-text">
+                            <b>DEEZER    </b>
+                            <input type="search" aria-label="search" placeholder="Artists, tracks, Podcasts...">
+                        </div> 
+                    </div>
                 </div>
-                <h1 class="deezer">DEEZER</h1>
-                <div class="search-bar"></div>
-                <input type="text" id="searchInput" placeholder="Artists, tracks, Podcasts...">
-
-            </div>
-            <div>
-                <div class="login"></div>
-                <div class="signup"></div>
-            </div>
-        </div>
-    </nav>
-   <hr> <hr>
-
+                    <div class="links">
+                        <a href="./../navbar/nav.html"> Plans</a>
+                        <div class="button">
+                            <button class="login"><a href="./../forms/login.html">Log In</a> </button>
+                            <button class="signup"><a href="./../forms/signUp.html"> Sign Up</a></button>
+                        </div>
+                    </div>
+                
+            </nav>
+            <hr>
+    </header>
    <main>
-    <h1>All Channels</h1>
+    <div class="all-channels">All Channels</div>
     
     <h3>Categories</h3>
     <div class="music-sctn">
@@ -47,6 +50,9 @@
         <div><p>2000s</p></div>
         <div><p>At Home</p></div>
         <div><p>1980s</p></div>
+        <div><p>Sleep</p></div>
+        <div><p>Feel good</p></div>
+        <div><p>1990s</p></div>
         <div><p>Kids</p></div>
         <div><p>Focus</p></div>
         <div><p>2010s</p></div>
@@ -55,6 +61,7 @@
         <div><p>Feeling Sad</p></div>
         <div><p>Gaming</p></div>
         <div><p>1970s</p></div>
+        <div><p>Black culture</p></div>
         <div><p>Bubble</p></div>
         <div><p>ASMR</p></div>
         <div><p>Women's Impact</p></div>
@@ -62,14 +69,13 @@
     </div>
 
     <h3>Genres</h3>
-    <div class="categories">
+    <div class="genres">
+        <div><p>French music</p></div>
         <div><p>Afro</p></div>
         <div><p>R&B</p></div>
-        <div><p>Rap</p></div>
-        <div><p>Soul & Funk</p></div>
-        <div><p>Pop</p></div>
-        <div><p>Movies & Series</p></div>
-        <div><p>Reggae</p></div>
+        <div><p>Electronic</p></div>
+        <div><p>Classical</p></div>
+        <div><p>Blues</p></div>
     </div>
    </main>
 
@@ -116,14 +122,5 @@
         <div><p>Scary stories</p></div>
     </div>
 </div>   
-    <section id="audio">
-        <div id="artist-image">
-            <img src="/assets/Fally Ipupa.jpg">
-            <marquee>8eme Merveille</marquee><a href="#">Fally Ipupa</a>
-        </div>
-        <audio class="mp3" controls>
-            <source src="/assets/2027_Fally Ipupa - 8 eme Merveille TERRE2BUZZ.COM.mp3">
-        </audio>
-    </section>
 </body>
 </html>
