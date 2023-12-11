@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    
+}
+
+nav{
+   
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 90px;
+   width: 100%;
+   box-sizing: border-box;
+   background-color:black ;
+   border-bottom:2px solid #555257 ;
+   padding: 10px 20px;
+   /* z-index: 1; */
+   /* position: relative; */
+
+}
+
+nav > div {
+    display: flex;
+    gap: 20px; 
+    
+}
+
+div > img{
+    height:auto ;
+    width:106px ;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+.button {
+    text-align: center;
+    margin: 20px;
+}
+
+a.login{
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #fff;
+    box-shadow: white;
+    background-color:#9333e8;
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    
+}
+a.signup{
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #fff;
+    background-color:black;
+    border: 1px solid whitesmoke;
+    transition: background-color 0.3s ease;
+    border-radius: 15px;
+
+   
+}
+
+a.login:hover {
+    background-color:rgba(147, 51, 232, 0.7); 
+
+}
+
+a.signup:hover { 
+    opacity: 0.8;
+}
+
+
+/* The wiggle effect */
+
+ nav .main a:hover{
+    animation: wiggle 0.5s ease-in-out infinite;
+    color:  #9333e8;
+    /* color: white; */
+    
+ }
+ 
+
+@keyframes wiggle
+ {
+    0% {
+        transform: rotate(-6deg);
+    }
+    50% {
+        transform: rotate(2deg);
+    }
+    100% {
+        transform: rotate(4deg);
+    }
+} 
+
+/* The underline effect */
+
+/* nav .main a {
+ position: relative;
+}
+
+ nav .main a::before {
+ content: '';
+ position: absolute;
+ width: 0;
+ height: 2px;
+ bottom: 15px;
+ background-color: #fff;
+ transition: width 0.3s;
+}
+
+nav .main a:hover::before {
+ width: 55%;
+}  */
+
+/* Navigation bar transition styles */
+
+
+
+/* nav .start-home.animation{
+    position: absolute;
+    height: 90px;
+    top: 0;
+    bottom: 0;
+    z-index:-2;
+    background:transparent;
+    width: 0;
+    left: 0;
+    border-radius: 8px;
+    transition: all .5s ease 0s;
+}
+
+
+nav .start-home, .main a:nth-child(1){
+    width: 100px;
+}
+
+nav .start-home, .main a:nth-child(1):hover~.animation{
+    width: 100px;
+    left: 640px;
+    background:blueviolet;
+    color: white;
+    
+}
+nav .main a:nth-child(2){
+    width: 110px;
+}
+nav .main a:nth-child(2):hover~.animation{
+    width: 110px;
+    left: 790px;
+    background: blueviolet;
+}
+
+nav .main a:nth-child(3){
+    width: 100px;
+}
+nav .main a:nth-child(3):hover~.animation{
+    width: 100px;
+    left: 965px;
+    background: blueviolet;
+} */
+
+
+
