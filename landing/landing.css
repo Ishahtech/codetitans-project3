@@ -30,7 +30,7 @@ body {
 
  }
 
- .tag-line> h6 {
+ h4 {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    text-align: center;
    color: white;
@@ -38,30 +38,35 @@ body {
 }
 
       /* This CSS is for the images in the hero section */
+ .cat {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 200px;
+   
+ }
  .categories {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    position: relative;
+    position: relative; */
     width: 300px;
-    height: 400px;
+    height: 300px;
     border-radius: 20px;
     overflow: hidden;
     margin: 30px;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    justify-content: space-between;
  }
 
  .categories img {
-    display: relative;
+    /* display: relative; */
     width: 100%;
     height: 100%;
     object-fit: cover;
-    align-items: center;
-    justify-content: center;   
+    /* align-items: center;
+    justify-content: center;    */
     transition: transform 0.02 ease; 
  }
-
-
  .categories:hover {
    background-color: linear-gradient #A238FF;
    transform: scale(1.2);
@@ -69,18 +74,11 @@ body {
 }
 
     /* This CSS is for the music animation */
-
-  /* .wave {
-   display: flex;
-   flex-direction: row;
-   margin: 0;
-
-  } */
     .sound-wave {
    position: relative;
    width: 100%;
    height: 200px;
-   margin-top: -50px;
+   margin-top: -250px;
    display: flex;
    flex-direction: row;
    z-index: -1;
@@ -89,25 +87,23 @@ body {
  }
 
  .sound-wave .bar {
-   display: inline-block;
+   /* display: inline-block; */
    /* position: relative; */
    width: 12px;
    height: 100px;
    margin: 5px;
    border-top-right-radius: 10px;
    border-top-left-radius: 10px;
-   align-items: center;
-   justify-content: space-between;
+   /* align-items: center; */
+   /* justify-content: space-between; */
    /* background-color: linear-gradient #A238FF; */
    background-color: #A238FF;
    box-shadow: 0 0 20px #d6b6f1;
-   transform-origin: bottom;
+   /* transform-origin: bottom; */
    animation: beat 1.5s linear infinite;
 
 
  }
-
-
  @keyframes beat {
    0% {
       /* height: 50px; */
@@ -125,81 +121,62 @@ body {
    }
    
  }
-
- /* .sound-wave .bar:nth-child(2n+1) {
-   animation-delay: 0.2s;
-   height: 20px;
- }
- .sound-wave .bar:nth-child(2n+2) {
-   animation-delay: 0.2s;
-   height: 50px;
- } */
-
-
 .sound-wave .bar:nth-child(1) {
    animation-delay: 0.2s;
-   /* height: 20px; */
+}
+.sound-wave .bar:nth-child(2) {
+   animation-delay: 0.4s;
+}
+.sound-wave .bar:nth-child(3) {
+   animation-delay: 0.5s;
+}
+.sound-wave .bar:nth-child(4) {
+   animation-delay: 0.6s;
 }
 .sound-wave .bar:nth-child(5) {
-   animation-delay: 0.3s;
-   /* height: 20px; */
+   animation-delay: 0.5s;
 }
-.sound-wave .bar:nth-child(10) {
+.sound-wave .bar:nth-child(6) {
+   animation-delay: 0.4s;
+}
+.sound-wave .bar:nth-child(12) {
    animation-delay: 0.2s;
-   /* height: 20px; */
+}
+.sound-wave .bar:nth-child(13) {
+   animation-delay: 0.5s;
+}
+.sound-wave .bar:nth-child(14) {
+   animation-delay: 0.6s;
 }
 .sound-wave .bar:nth-child(15) {
-   animation-delay: 0.2s;
-   /* height: 20px; */
+   animation-delay: 0.5s;
 }
-.sound-wave .bar:nth-child(20) {
+.sound-wave .bar:nth-child(16) {
+   animation-delay: 0.4s;
+}
+.sound-wave .bar:nth-child(17) {
    animation-delay: 0.2s;
-   /* height: 20px; */
+}
+.sound-wave .bar:nth-child(23) {
+   animation-delay: 0.2s;
+}
+.sound-wave .bar:nth-child(24) {
+   animation-delay: 0.4s;
+}
+.sound-wave .bar:nth-child(25) {
+   animation-delay: 0.5s;
+}
+.sound-wave .bar:nth-child(26) {
+   animation-delay: 0.6s;
+}
+.sound-wave .bar:nth-child(27) {
+   animation-delay: 0.5s;
 }
 .sound-wave .bar:nth-child(28) {
    animation-delay: 0.4s;
-   /* height: 50px; */
 }
-.sound-wave .bar:nth-child(29) {
-   animation-delay: 0.5s;
-   /* height: 50px; */
-}
-
-.sound-wave .bar:nth-child(30) {
-   animation-delay: 0.6s;
-   /* height: 20px; */
-}
-.sound-wave .bar:nth-child(31) {
-   animation-delay: 0.6s;
-   /* height: 20px; */
-}
-.sound-wave .bar:nth-child(32) {
-   animation-delay: 0.5s;
-   /* height: 20px; */
-}
-.sound-wave .bar:nth-child(34) {
+.sound-wave .bar:nth-child(28) {
    animation-delay: 0.2s;
-   /* height: 20px; */
-}
-.sound-wave .bar:nth-child(40) {
-   animation-delay: 0.2s;
-   /* height: 20px; */
-}
-.sound-wave .bar:nth-child(45) {
-   animation-delay: 0.2s;
-   /* height: 20px; */
-}
-.sound-wave .bar:nth-child(50) {
-   animation-delay: 0.2s;
-   /* height: 20px; */
-}
-.sound-wave .bar:nth-child(54) {
-   animation-delay: 0.2s;
-   /* height: 20px; */
-}
-.sound-wave .bar:nth-child(60) {
-   animation-delay: 0.2s;
-   /* height: 20px; */
 }
 
 
@@ -246,8 +223,6 @@ h2 {
    justify-content:center;
    text-align: left;
 }
-
-
 .btn.premium {
    display: flex;
    background-color: #a238ff;
@@ -263,7 +238,6 @@ h2 {
    border:2px solid #a238ff;
    align-items: center;
 }
-
 .btn.family {
    display: flex;
    background-color: #FF673D;
@@ -280,7 +254,6 @@ h2 {
    align-items:center;
    
 }
-
 .btn.fam-and-pre{
    display: flex;
    background-color: #a238ff;
@@ -299,8 +272,6 @@ h2 {
    align-items: center;
 
 }
-
-
 .btn-try1{
    padding: 16px 32px;
    background: #121216;
@@ -348,6 +319,8 @@ h2 {
    display: flex;;
    margin-right: auto;
 }
+
+/* Monica's CSS code */
 .container{
    display: flex;
    flex-wrap: wrap;
@@ -367,8 +340,6 @@ h2 {
    height: auto;
    margin-bottom: 30px; 
 }
-
-
 .card-s:hover {
 background-color: aliceblue;  
 color: black;
@@ -392,7 +363,6 @@ i{
    opacity:1;  
    
 }
-
 .image img{
 height:300px;
 width:300px;
