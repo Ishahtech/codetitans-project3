@@ -360,6 +360,7 @@ h2 {
    display: grid;
    grid-template-columns: repeat(4, 1fr);
    gap: 24px;
+   margin-left: 15px;
    /* justify-content: space-evenly; */
    /* background-color: #A238FF; */
    /* margin-bottom: 50px; */
