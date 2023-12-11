@@ -39,12 +39,12 @@ footer {
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500px;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .big-text {
-    color: #a2a2ad;
-    font-size: 15px;
+    color: lightslategray;
+    font-size: 20px;
     font-weight: 700px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
