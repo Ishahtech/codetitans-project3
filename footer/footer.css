@@ -2,18 +2,11 @@ footer {
     background-color: black;
 }
 
-.footer {
-    padding: 64px 90px 117px;
-    text-align: left;
-    padding-bottom: 50px;
-    position: relative;
-}
-
 .footer-main {
     display: flex;
-    gap: 20px;
     justify-content: center;
     padding: 5px 25px;
+    /* margin-bottom: 45px; */
 }
 
 .stickers-imgs {
@@ -33,12 +26,12 @@ footer {
 .links, a {
     display: grid;
     grid-template-columns: repeat(4 4fr);
-    gap: 30px;
+    gap: 10px;
     list-style-type: none;
     color: white;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 500px;
+    /* font-weight:300; */
     font-size: 16px;
 }
 
@@ -54,7 +47,7 @@ footer {
 .icons {
 
     display: flex;
-    gap: 10px;
+    gap: 40px;
 }
 
 .icons img {
@@ -72,11 +65,15 @@ footer {
 }
 
 .all-icons {
-    margin-top: 20px;
+    margin: 45px 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: grey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
+}
+
+.copy{
+font-size: 18px;
 }

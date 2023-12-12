@@ -1,5 +1,5 @@
       /* CSS for the body of the page */
-body {
+main {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
