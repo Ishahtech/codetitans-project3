@@ -22,7 +22,7 @@ nav{
 }
 .nav-logo img{
     height:auto ;
-    width:106px ;
+    width: 106px ;
 
 }
 .mainPages{
@@ -51,7 +51,7 @@ nav{
     /* align-items: center; */
 }
 
-.login{
+.login {
     display: inline-block;
     padding: 15px 30px;
     font-size: 20px;
@@ -63,7 +63,7 @@ nav{
     transition: background-color 0.3s ease;
     
 }
-.signup{
+.signup {
     display: inline-block;
     padding: 15px 30px;
     font-size: 20px;
