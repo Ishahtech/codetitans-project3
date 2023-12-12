@@ -1,19 +1,21 @@
       /* CSS for the body of the page */
-main {
+ /* .creation{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+     align-items: center;
+     justify-content: center;
     background-color: #0f0d13;
-    width: auto;
+     width: auto;
     position: relative;
-}
+}  */
 
 .hero-section {
+   width: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+
  }
     /* CSS for the H1 */
  .tag-line  {
@@ -80,8 +82,8 @@ main {
    height: 100px;
    margin: 5px;
    border-radius: 10px;  
-   background-color: #A238FF;
-   box-shadow: 0 0 20px #A238FF;
+   /* background-color: #A238FF; */
+   /* box-shadow: 0 0 20px #A238FF; */
    animation: beat 1.5s linear infinite;
  }
  @keyframes beat {

@@ -1,3 +1,6 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .logo-text> input:hover {
     border-color: #a238ff;
 }
@@ -15,13 +18,13 @@
 hr {
     margin-top: 20px;
 }
-.links>a {
+.music-cta>a {
     font-weight: 600;
     text-decoration: none;
     color: black;
     margin: 10px 10px 0 0;
 }
-.links>a:hover {
+.music-cta>a:hover {
     text-decoration: underline;
 }
 .login>a, .signup>a {
@@ -40,7 +43,7 @@ b {
     font-size: 20px;
     margin-top: 20px;
 }
-.links {
+.music-cta {
     display: flex;
     justify-content: flex-end;
     gap: 10px;
@@ -74,9 +77,7 @@ b {
     height: 100px;
 } */
 
-* {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 .categories, .genres{
     display: grid;
     grid-template-columns: repeat(4, 4fr );

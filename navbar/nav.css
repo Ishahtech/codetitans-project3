@@ -5,7 +5,7 @@ nav{
    display: flex;
    justify-content: space-between;
    gap: 20px;
-   /* align-items: center; */
+   align-items: center;
    height: 90px;
    width: 100%;
    box-sizing: border-box;
@@ -22,7 +22,7 @@ nav{
 }
 .nav-logo img{
     height:auto ;
-    width:10px ;
+    width:106px ;
 
 }
 .mainPages{
@@ -51,7 +51,7 @@ nav{
     /* align-items: center; */
 }
 
-a .login{
+.login{
     display: inline-block;
     padding: 15px 30px;
     font-size: 20px;
@@ -63,7 +63,7 @@ a .login{
     transition: background-color 0.3s ease;
     
 }
-a .signup{
+.signup{
     display: inline-block;
     padding: 15px 30px;
     font-size: 20px;
