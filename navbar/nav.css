@@ -1,66 +1,74 @@
-body{
-    margin: 0;
-    
-}
-
+/* background-color: ; the purple color #A238FF */
 nav{
    
    font-family: Arial, Helvetica, sans-serif;
-   font-size: 20px;
    display: flex;
    justify-content: space-between;
-   align-items: center;
+   gap: 20px;
+   /* align-items: center; */
    height: 90px;
    width: 100%;
    box-sizing: border-box;
-   background-color:black ;
+   background-color:#0f0d13 ;
    border-bottom:2px solid #555257 ;
    padding: 10px 20px;
    /* z-index: 1; */
    /* position: relative; */
 
 }
-
-nav > div {
+.pages{
     display: flex;
-    gap: 20px; 
-    
+    gap: 20px; ;
 }
-
-div > img{
+.nav-logo img{
     height:auto ;
-    width:106px ;
+    width:10px ;
 
 }
-
-a {
-    text-decoration: none;
+.mainPages{
+    font-size:24px;
+    font-weight: 400;
+    background-color:#0f0d13;
+     text-decoration: none;
     color: white;
     padding: 15px;
 }
-.button {
+
+
+/* a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+} */
+.cta{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
     text-align: center;
     margin: 20px;
+    /* align-items: center; */
 }
 
-a.login{
+a .login{
     display: inline-block;
     padding: 15px 30px;
     font-size: 20px;
     color: #fff;
     box-shadow: white;
-    background-color:#9333e8;
+    background-color:#A238FF;
     border: 1px solid whitesmoke;
     border-radius: 15px;
     transition: background-color 0.3s ease;
     
 }
-a.signup{
+a .signup{
     display: inline-block;
     padding: 15px 30px;
     font-size: 20px;
     color: #fff;
-    background-color:black;
+    background-color:#0f0d13;
     border: 1px solid whitesmoke;
     transition: background-color 0.3s ease;
     border-radius: 15px;
@@ -68,8 +76,8 @@ a.signup{
    
 }
 
-a.login:hover {
-    background-color:rgba(147, 51, 232, 0.7); 
+a .login:hover {
+    background-color:#A238FF; 
 
 }
 
@@ -77,12 +85,10 @@ a.signup:hover {
     opacity: 0.8;
 }
 
-
 /* The wiggle effect */
-
- nav .main a:hover{
+ nav .pages a:hover{
     animation: wiggle 0.5s ease-in-out infinite;
-    color:  #9333e8;
+    color:  #A238FF;
     /* color: white; */
     
  }
@@ -169,4 +175,4 @@ nav .main a:nth-child(3):hover~.animation{
 } */
 
 
-
+ 
