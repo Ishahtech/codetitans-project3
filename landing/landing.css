@@ -22,7 +22,7 @@
 
 .hero {
    background-color: #0f0d13;
-   
+   height: 900px;
 }
 .hero-section {
     display: flex;
