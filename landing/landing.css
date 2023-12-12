@@ -1,5 +1,5 @@
       /* CSS for the body of the page */
-main {
+/* main {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -7,16 +7,31 @@ main {
     background-color: #0f0d13;
     width: auto;
     position: relative;
-}
+} */
+/* body {
+   display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f0d13;
+    width: auto;
+    position: relative;
+} */
+* {margin: 0px;
+   box-sizing:border-box;}
 
+.hero {
+   background-color: #0f0d13;
+   
+}
 .hero-section {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
- }
-    /* CSS for the H1 */
- .tag-line  {
+  }  
+/* CSS for the H1 */
+.tag-line  {
     width: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
@@ -26,17 +41,15 @@ main {
     align-items: center;
     justify-content: center;
     margin: 5px;
-
- }
-   /* This CSS is for the images in the hero section */
- .cat {
+}
+/* This CSS is for the images in the hero section */
+.cat {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
    gap: 200px;
-   
- }
- .categories {
+   }
+.categories {
     width: 300px;
     height: 300px;
     border-radius: 20px;
@@ -65,16 +78,18 @@ main {
 }
     /* This CSS is for the music animation I first targeted the soundwave div and styled it by giving is a position relative 
     to the parent so I can freely move it around to my liking. Then I gave it a z-index of -1 so it goes below the images above it*/
-    .sound-wave {
+.sound-wave {
    position: relative;
    height: 200px;
    display: flex;
    flex-direction: row;
-   z-index: -1;
+   align-items: center;
+   width: auto;
  }
+
  /* This CSS targets the bars in the soundwave div. I gave the bars all the necessary features to be visible, then I gave 
  it an animation with the properties I wanted  */
-  .bar {
+.bar {
    width: 8px;
    height: 100px;
    margin: 5px;
@@ -82,7 +97,7 @@ main {
    background-color: #A238FF;
    box-shadow: 0 0 20px #A238FF;
    animation: beat 1.5s linear infinite;
- }
+}
  @keyframes beat {
    0% {
       transform: scale(0.2);
